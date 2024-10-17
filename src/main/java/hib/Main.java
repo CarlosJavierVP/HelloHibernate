@@ -28,7 +28,7 @@ public class Main {
 
 
             //las operaciones de escritura se hacen en el marco de una transacción
-            session.beginTransaction();
+            session.beginTransaction(); //comeinzo del marco de transacción
             Game g = new Game();
             g.setTitle("BG3");
             g.setDescription("descripción");
