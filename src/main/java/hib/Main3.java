@@ -24,6 +24,7 @@ public class Main3 {
             List<Game> games = query.getResultList();
             games.forEach(System.out::println);
 
+
         }
 
     }

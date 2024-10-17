@@ -12,7 +12,7 @@ https://github.com/hibernate/dtd/blob/main/hibernate-configuration-3.0.dtd
         <property name="connection.url">jdbc:mysql://localhost:3306/ad</property>
         <property name="connection.username">carlos</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="connection.password">123456</property>
+        <!--property name="connection.password">123456</property-->
         <!--property name="dialect">org.hibernate.dialect.MySQLDialect</property-->
 
 
@@ -20,6 +20,7 @@ https://github.com/hibernate/dtd/blob/main/hibernate-configuration-3.0.dtd
 
 
         <mapping class="hib.model.Game"/>
+        <mapping class="hib.model.User"/>
 
     </session-factory>
 </hibernate-configuration>

@@ -34,7 +34,7 @@ public class Main {
             g.setDescription("descripción");
             g.setYear(2023);
             g.setPlatform("PC");
-            g.setUserId(1);
+            //g.setUserId(1);
 
             session.persist(g);
             session.getTransaction().commit();
