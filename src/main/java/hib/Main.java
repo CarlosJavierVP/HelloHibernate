@@ -8,7 +8,7 @@ import org.hibernate.query.Query;
 
 public class Main {
     public static void main(String[] args) {
-
+        //hibernate -> ORM gestor objeto relacional
 
         //Conexión a través de hibernate
         SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();

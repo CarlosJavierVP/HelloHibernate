@@ -12,7 +12,7 @@ import java.util.Objects;
 public class Game implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
-    private int id;
+    private Long id;
 
     private String title;
 

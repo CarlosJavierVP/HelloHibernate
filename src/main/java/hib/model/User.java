@@ -14,7 +14,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id")
-    private int id;
+    private Long id;
     @Basic
     @Column(name = "email")
     private String email;
@@ -23,7 +23,7 @@ public class User {
     private String password;
     @Basic
     @Column(name = "is_admin")
-    private Byte isAdmin;
+    private Boolean isAdmin;
 
     @OneToMany(mappedBy = "user", fetch = FetchType.EAGER)
     private List<Game> games = new ArrayList<>();
